@@ -1,0 +1,46 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+   xmlns:core="sap.ui.core"
+   xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    	> 
+
+    <Panel headerText="{i18n>panelFrTitle}" class="sapUiResponsiveMargin" width="auto">
+    		
+
+        <f:SimpleForm id="form" editable="false">
+        
+            <f:content>
+                <Label text="{i18n>labelPersonName}" labelFor="persName"/>
+                <Input id="persName" required="true" width="40%" placeholder="Ingresa {i18n>labelPersonName}"/>
+
+                 <Label text="{i18n>labelPersonApellido}" labelFor="persApell"/>
+                <Input id="persApell" required="true" width="40%" placeholder="Ingresa {i18n>labelPersonApellido}"/>
+
+            	    <Label text="{i18n>labelPersonFnac}" labelFor="personFnac"/>
+				    <DatePicker
+					 id="personFnac"
+                     required="true"
+                     width="40%"
+					placeholder="Ingresa {i18n>labelPersonFnac}"
+					change="handleChange"
+					class="sapUiSmallMarginBottom"/>
+
+
+                 <Label text="{i18n>labelPersonEdoCivil}" labelFor="personEdoCivil"/>
+                <Input id="personEdoCivil"
+                 required="true"
+                 width="40%"
+
+                 placeholder="Ingresa {i18n>labelPersonEdoCivil}"/>
+
+	
+                 <Label text="{i18n>labelPersonNotas}" labelFor="personNotas"/>
+                <Input id="personNotas" required="true" width="40%" placeholder="Ingresa {i18n>labelPersonNotas}"/>
+
+            </f:content>
+
+        </f:SimpleForm>
+         		
+   </Panel>
+</core:FragmentDefinition>

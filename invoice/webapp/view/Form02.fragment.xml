@@ -1,0 +1,96 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+>
+    <f:Form
+        id="Form02"
+        editable="true"
+    >
+        <f:title>
+            <core:Title text="Información Personal" />
+        </f:title>
+        <f:layout>
+            <f:ResponsiveGridLayout
+                labelSpanXL="4"
+                labelSpanL="4"
+                labelSpanM="12"
+                labelSpanS="12"
+                adjustLabelSpan="false"
+                emptySpanXL="0"
+                emptySpanL="0"
+                emptySpanM="0"
+                emptySpanS="0"
+                columnsXL="2"
+                columnsL="2"
+                columnsM="1"
+                singleContainerFullSize="false"
+            />
+        </f:layout>
+
+        <f:FormContainer>
+            <f:formElements>
+                <f:FormElement label="{i18n>labelPersonName}">
+                    <f:fields>
+                        <Input
+                            id="Nombre"
+                            required="true"
+                            width="auto"
+                            placeholder="Ingresa su {i18n>labelPersonName}"
+                        />
+                    </f:fields>
+                </f:FormElement>
+
+                <f:FormElement label="{i18n>labelPersonApellido}">
+                    <f:fields>
+                        <Input
+                            id="Apellido"
+                            required="true"
+                            width="auto"
+                            placeholder="Ingresa su {i18n>labelPersonApellido}"
+                        />
+                    </f:fields>
+                </f:FormElement>
+
+                <f:FormElement label="{i18n>labelPersonFnac}">
+                    <DatePicker
+                        id="personFnac2"
+                        required="true"
+                        width="auto"
+                        placeholder="Ingresa su {i18n>labelPersonFnac}"
+                        change="handleChange"
+                        class="sapUiSmallMarginBottom"
+                    />
+                    <f:fields />
+                </f:FormElement>
+
+
+                <f:FormElement label="{i18n>labelPersonNacionalizado}">
+                    <f:fields>
+                       	<HBox>
+                        	<Switch state="false" customTextOn="Si" customTextOff="No">
+				<layoutData>
+					<FlexItemData growFactor="1" />
+				</layoutData>
+			</Switch>
+                        	</HBox>
+                    </f:fields>
+                </f:FormElement>
+
+                                <f:FormElement label="{i18n>labelPersonFnac}">
+                    <DatePicker
+                        id="personFnac12"
+                        required="true"
+                        width="auto"
+                        placeholder="Ingresa su {i18n>labelPersonFnac}"
+                        change="handleChange"
+                        class="sapUiSmallMarginBottom"
+                    />
+                    <f:fields />
+                </f:FormElement>
+                
+            </f:formElements>
+        </f:FormContainer>
+    </f:Form>
+</core:FragmentDefinition>

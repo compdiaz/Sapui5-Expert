@@ -1,0 +1,36 @@
+{
+    "Invoices": [
+        {
+            "ProductName": "HDD-Samsung 250Gb",
+            "Quantity": 21,
+            "ExtendedPrice": 87.2,
+            "ShipperName": "Fun Inc.",
+            "ShippedOate": "2015-04-0iT00:00:00",
+            "Status": "A"
+        },
+        {
+            "ProductName": "Tv Saumsung 55",
+            "Quantity": 2,
+            "ExtendedPrice": 257.2,
+            "ShipperName": "Story Inc.",
+            "ShippedOate": "2024-04-0iT00:00:00",
+            "Status": "B"
+        },
+        {
+            "ProductName": "Mouse Bluetooh",
+            "Quantity": 511,
+            "ExtendedPrice": 9.9999,
+            "ShipperName": "Mouse inc",
+            "ShippedOate": "2017-04-0iT00:00:00",
+            "Status": "B"
+        },
+        {
+            "ProductName": "Memoria Ram 4Gb",
+            "Quantity": 72,
+            "ExtendedPrice": 6.85,
+            "ShipperName": "Memory Fantasy Inc.",
+            "ShippedOate": "2023-04-0iT00:00:00",
+            "Status": "B"
+        }
+    ]
+}

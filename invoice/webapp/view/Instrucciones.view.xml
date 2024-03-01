@@ -1,0 +1,16 @@
+<mvc:View
+    controllerName="ydiazs.invoice.controller.Instrucciones"
+    xmlns:mvc="sap.ui.core.mvc"
+    	xmlns:form="sap.ui.layout.form"
+    displayBlock="true"
+    xmlns="sap.m">
+  <Panel id="panelText2">
+  <content>
+                                    <FormattedText
+                                        htmlText="El asistente le guiará durante el proceso de inscripción a la convocatoria, permitiéndole introducir todos los datos necesarios para cumplimentar de forma automática el formulario de inscripción. &lt;p&gt;&lt;li&gt;El Asistente le permitirá rellenar y presentar su inscripción durante el periodo de inscripción. &lt;Podrá Ingresa las veces que necesite para completar los datos o documentos a adjuntar..&lt;/li&gt;&lt;li&gt;Para finalizar la inscripción deberá, en la última pantalla, pulsar el botón de confirmar y presentar la solicitud.., &lt;string&gt;Una vez lo tenga todo listo podrá presentarla y ya no podrá hacer cambios en la misma.
+, &lt;string&gt;ATENCIÓN: Asegúrese que pulsa el botón 'GRABAR Y SEGUIR' para que los datos de cada pantalla sean guardados. En otro caso los cambios de la pantalla no serán guardados. &lt;/string&gt;"
+                                    />
+                                    </content>
+                                </Panel>
+    
+    </mvc:View>
